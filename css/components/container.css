@@ -1,0 +1,44 @@
+.container {
+	width: 800px;
+	margin: 70px auto;
+	font-size: 20px;
+}
+
+
+
+
+.container h2 {
+	margin-top: 10px;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 960px){
+  .container{
+  	width: 700px;
+  }
+  .img-design{
+  	width: 150px;
+  }
+}
+
+
+@media (max-width: 720px){
+  .container{
+  	width: 550px;
+  }
+  .img-design{
+  	width: 150px;
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+  	width: 300px;
+  }
+  .img-design{
+  	width: 150px;
+  }
+}
